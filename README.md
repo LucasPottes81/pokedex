@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>README - Pokédex</title>
+   
 </head>
 <body>
     <h1>📘 Projeto Pokédex</h1>
