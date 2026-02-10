@@ -1,28 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detalhes do Pokémon</title>
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/pokedex.css">
-    <link rel="stylesheet" href="/assets/css/pokemon-details.css">
-</head>
-<body>
-   
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/pokedex.css" />
+    <link rel="stylesheet" href="/assets/css/pokemon-details.css" />
+  </head>
+  <body>
+    <button
+      id="theme-toggle"
+      style="
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        z-index: 1000;
+        background-color: #333;
+        color: #fff;
+      "
+    >
+      🌓 Tema
+    </button>
+
     <section id="pokemonSection">
-        <h1 id="pokemonName">Detalhes do Pokémon</h1>
+      <h1 id="pokemonName">Detalhes do Pokémon</h1>
 
-        <div id="pokemonDetails">
-        </div>
-
-        
+      <div id="pokemonDetails"></div>
     </section>
 
-    <button onclick="window.location.href='index.html'" class="back-button">← Voltar para a Pokédex</button>
-    <!-- Script -->
+    <button onclick="window.location.href = 'index.html'" class="back-button">
+      ← Voltar para a Pokédex
+    </button>
+
     <script src="/assets/js/pokemon-details.js"></script>
-</body>
+
+    <script src="/assets/js/theme.js"></script>
+  </body>
 </html>
